@@ -1,5 +1,5 @@
 body {
-    background-image: url("C:\\Users\\USER\\Documents\\Visual Code Studio\\CSC457 - WEB DEVELOPMENT\\Chapter02-HTML\\ASSIGNMENT\\media\\background.png");
+    background-image: url("./meida/background.png");
     background-size: cover;     
     background-repeat: no-repeat; 
     /*background-position: center;*/
