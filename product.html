@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Products - My Handicrafts Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(184, 162, 104);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>My Handicrafts Store</h1>
+
+        <div class="menu">
+
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <h2 style="text-align:center;">
+            Our Products
+        </h2>
+        <table style="background-color: rgba(0, 0, 0, 0.5); color: white;">
+
+            <tr>
+                <th>Product</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>Handmade Basket</td>
+
+                <td>
+                    <img src="media/basket.jpeg"
+                        width="150">
+                </td>
+
+                <td>RM45</td>
+
+                <td>
+                    Beautiful handmade woven basket.
+                </td>
+
+                <td>
+                    <button onclick="buyNow()">
+                        Buy Now
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Decorative Candle</td>
+
+                <td>
+                    <img src="media/candle.jpeg"
+                        width="150">
+                </td>
+
+                <td>RM30</td>
+
+                <td>
+                    Scented candle for home decoration.
+                </td>
+
+                <td>
+                    <button onclick="buyNow()">
+                        Buy Now
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Clay Pottery</td>
+
+                <td>
+                    <img src="media/pottery.jpeg"
+                        width="150">
+                </td>
+
+                <td>RM60</td>
+
+                <td>
+                    Traditional handcrafted pottery item.
+                </td>
+
+                <td>
+                    <button onclick="buyNow()">
+                        Buy Now
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <br>
+        <p>
+            © 2026 My Handicrafts Store
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

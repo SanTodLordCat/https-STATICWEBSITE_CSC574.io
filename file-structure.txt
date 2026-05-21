@@ -1,0 +1,17 @@
+handicraft-store/
+│
+├── index.html
+├── products.html
+├── gallery.html
+├── about.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│
+├── videos/
