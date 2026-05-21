@@ -1,0 +1,226 @@
+body {
+    background-image: url("C:\\Users\\USER\\Documents\\Visual Code Studio\\CSC457 - WEB DEVELOPMENT\\Chapter02-HTML\\ASSIGNMENT\\media\\background.png");
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    /*background-position: center;*/
+
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+div a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+video{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* IndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndex */
+/* IndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndex */
+/* IndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndexIndex */
+
+.video-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 50px 0;
+}
+
+.introduction {
+  /* Black background at 60% opacity for high contrast text */
+  background-color: rgba(0, 0, 0, 0.6); 
+  
+  /* Flexbox to vertically and horizontally center the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /* Centers the text inside the elements */
+  text-align: center; 
+  
+  /* Add padding so the text doesn't touch the container edges */
+  padding: 40px; 
+  border-radius: 8px; /* Optional: rounds the corners */
+}
+
+/* Optional styling for readability */
+.introduction h2, 
+.introduction p {
+  color: #ffffff; /* White text looks best on dark semi-transparent backgrounds */
+  margin-bottom: 15px;
+}
+
+.hero h1{
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: saddlebrown;
+}
+
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px lightgray;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* ProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProduct */
+/* ProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProduct */
+/* ProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProductProduct */
+
+table img {
+    border-radius: 10px;
+}
+
+th {
+  font-size: 18px;
+}
+
+
+/* ContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContact */
+/* ContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContact */
+/* ContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContactContact */
+
+.contact-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: sienna;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form label {
+    color: rgb(0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+.contact-form button:hover {
+    background-color: saddlebrown;
+}
+
+
+/* AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout */
+/* AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout */
+/* AboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAboutAbout */
+
+.about-section {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.about-section h2,
+.about-section p,
+.about-section h3 {
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+
+/* GalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGallery */
+/* GalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGallery */
+/* GalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGalleryGallery */
+
+.gallery-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+    transition: 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
